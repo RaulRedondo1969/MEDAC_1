@@ -12,6 +12,7 @@ public class LeeDatosScanner01 {
 		System.out.println("Introduce tu edad");
 		int edad = Integer.parseInt(s.nextLine());// hacemos un cast 
 		System.out.println("Tu nombre es.."+nombre+"..Tu edad es..."+edad);
+		System.out.println("probando el respositorio");
 		s.close();
 	}
 
