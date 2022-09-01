@@ -9,10 +9,10 @@ public class DameTuNombre {
 		// Este ejemplo hay que ejecutarlo en el terminal de Eclipse
 		//Por otro lador tenemos la clase Scanner
 	    Console consola = System.console();
-	    System.out.println("Por favor, dime cómo te llamas: ");
+	    System.out.println("Por favor, dime cï¿½mo te llamas: ");
 		String nombre = consola.readLine();
 
-		System.out.println("Hola " + nombre + ", ¡encantado de conocerte!");
+		System.out.println("Hola " + nombre + ", Estoy encantado de conocerte!");
 		
 
 	}
