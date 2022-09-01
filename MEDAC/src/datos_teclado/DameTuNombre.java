@@ -13,7 +13,7 @@ public class DameTuNombre {
 		String nombre = consola.readLine();
 
 		System.out.println("Hola " + nombre + ", Estoy encantado de conocerteeee!");
-		
+		System.out.println("Hola " + nombre + ", Estoy encantado de  NO conocerteeee!");
 
 	}
 
