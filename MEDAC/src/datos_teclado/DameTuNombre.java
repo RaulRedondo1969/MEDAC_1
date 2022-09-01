@@ -12,7 +12,7 @@ public class DameTuNombre {
 	    System.out.println("Por favor, dime c�mo te llamas: ");
 		String nombre = consola.readLine();
 
-		System.out.println("Hola " + nombre + ", Estoy encantado de conocerte!");
+		System.out.println("Hola " + nombre + ", Estoy encantado de conocerteeee!");
 		
 
 	}
