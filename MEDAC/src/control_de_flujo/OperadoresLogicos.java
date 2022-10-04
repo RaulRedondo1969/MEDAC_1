@@ -10,7 +10,7 @@ public class OperadoresLogicos {
 		var logger = Logger.getLogger("MyLog");
 		
 		System.out.println("Adivina el numero que estoy pensando");
-		System.out.println("Introduce un numero entre el 1 y el 10");
+		System.out.println("Introduce un numero entre el 1 y el 100");
 		var sc = new Scanner(System.in);
 		int numero = sc.nextInt();
 		if((numero < 1)|| (numero >100)) {
@@ -20,6 +20,8 @@ public class OperadoresLogicos {
 		}
 		if(numero ==24) {
 			logger.info("Acertaste!!");
+		}else {
+			logger.info("Termino el juego");
 		}
 
 	}
