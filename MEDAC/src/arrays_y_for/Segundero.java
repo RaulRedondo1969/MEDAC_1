@@ -1,9 +1,9 @@
-package control_de_flujo;
+package arrays_y_for;
 
 public class Segundero {
 
 	public static void main(String[] args) {
-		
+		//Ejemplo sencillo de un array
 		int segundero=60; 
 		for (int i = 0; i < segundero; i++) {
 			
