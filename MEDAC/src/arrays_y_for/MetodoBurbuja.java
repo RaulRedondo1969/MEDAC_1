@@ -8,16 +8,15 @@ public class MetodoBurbuja {
 
 	public static void imprimirArray(int[] array) {
 		var logger = Logger.getLogger("MyLog");
-		logger.info("{");
+	
 		
 		
 		for (var i = 0; i < array.length;i++) {
 			logger.log(Level.INFO,"Dato del array:{0}",array[i]);
 			if(i < array.length -1) {
-				logger.info(",");
+				logger.info("----");
 			}
-			logger.info("}");
-			logger.log(Level.INFO,"Tamaño del array:{0}",array.length);
+			
 		}
 		
 	}
@@ -43,6 +42,10 @@ public class MetodoBurbuja {
 	public static void main(String[] args) {
 
 		int array[]= {7,10,1,9,0,41,12,-6,32,-1};
+		imprimirArray(array);
+		ordenacionBurbuja(array);
+		var logger = Logger.getLogger("MyLog");
+		logger.info("Array Ordenado");
 		imprimirArray(array);
 
 	}
