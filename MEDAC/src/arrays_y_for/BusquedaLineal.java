@@ -5,8 +5,7 @@ public class BusquedaLineal {
 	public static boolean busquedaLineal(int array[], int elemento) {
 		var encontrado = false;
 		for (var i = 0; i < array.length && !encontrado; i++) {
-			System.out.println(i);
-			System.out.println(encontrado);
+			
 			if (array[i] == elemento) {
 				encontrado = true;
 			}
